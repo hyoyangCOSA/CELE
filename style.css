@@ -69,18 +69,16 @@
 
 .headLeft{
     background-color:  #bbcdff;
-    width: 50%;
+    width: 60%;
     padding: 10%;
     border: 0;
     border-radius: 10px;
 }
-.headLeft:hover ~ .headRight{
-    background-color: #ffe4e1;
-}
+
 
 .headRight{
     background-color: #ffc6c0;
-    width: 50%;
+    width: 60%;
     padding: 10%;
     border: 0;
     border-radius: 10px;
@@ -89,7 +87,7 @@
 /* 제목 스타일 */
 h2 {
     margin-top: 0;
-    font-size: 12px;
+    font-size: 0.05em;
     
 }
 
