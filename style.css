@@ -1,0 +1,115 @@
+ /* 페이지 전체 스타일 */
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(217deg, rgba(79, 214, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(124, 80, 244, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(255, 67, 114, 0.8), rgba(0,0,255,0) 70.71%);
+    backdrop-filter: blur(10px);
+}
+
+/* 컨테이너 스타일 */
+.container {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Pretendard-Regular';
+    font-weight: 500px;
+}
+
+.header{
+    position: absolute;
+    top:5%;
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    align-content: center;
+    text-align: center;
+    font-size:30px;
+    font-family: 'SBAggroB';
+}
+
+/* 부스 구역 스타일 */
+.booth {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 왼쪽 부스 색상 */
+.booth-left {
+    background-color: #f0f4ff;
+    border: 0;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* 오른쪽 부스 색상 */
+.booth-right {
+    background-color: #ffe4e1;
+    border: 0;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.headLeft{
+    background-color:  #bbcdff;
+    width: 50%;
+    padding: 10%;
+    border: 0;
+    border-radius: 10px;
+}
+.headLeft:hover ~ .headRight{
+    background-color: #ffe4e1;
+}
+
+.headRight{
+    background-color: #ffc6c0;
+    width: 50%;
+    padding: 10%;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* 제목 스타일 */
+h2 {
+    margin-top: 0;
+    font-size: 12px;
+    
+}
+
+
+/* 내용 스타일 */
+p {
+    font-size: 10px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#background{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background: linear-gradient(rgb(115, 149, 241), rgb(241, 92, 92));
+    filter: blur(10px);
+}
